@@ -13,7 +13,7 @@ import com.wrapper.spotify.models.SimpleArtist;
 import com.wrapper.spotify.models.Track;
 
 public class GetSpotifyTrack {
-	private static double threshold = Settings.threshold;
+	private static double threshold = Settings.matchingThreshold;
 	private static Api api;
 	private static Logger logger;
 	static {

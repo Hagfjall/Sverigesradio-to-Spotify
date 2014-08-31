@@ -98,7 +98,7 @@ public class Start extends HttpServlet {
 					return null;
 				}
 			}
-			return Settings.urlToSiP1 + input;
+			return Settings.urlToSommariP1 + input;
 		}
 
 	}
